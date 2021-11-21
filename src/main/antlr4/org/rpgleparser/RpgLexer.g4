@@ -796,7 +796,7 @@ PAGE : [pP] [aA] [gG] [eE] [1-7]? ;
 //DataType
 CHAR : [Cc] [Hh] [Aa] [Rr] ;
 
-VARCHAR : [Va] [Aa] [Rr] [Cc] [Hh] [Aa] [Rr] ;
+VARCHAR : [Vv] [Aa] [Rr] [Cc] [Hh] [Aa] [Rr] ;
 
 UCS2 : [Uu] [Cc] [Ss] [2] ;
 
