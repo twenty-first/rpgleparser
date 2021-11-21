@@ -29,5 +29,10 @@ public class TestDirective {
         final String inputString = "     D/TITLE There is a title here";
         expectTokensForSourceLines(inputString, "D/", "TITLE", "There is a title here", "");
     }
-
+    
+    @Test
+    public void testIF() {
+        final String inputString = "      /IF NOT DEFINED(Name)";
+        expectTokensForSourceLines(inputString, "/", "IF", "NOT", "DEFINED", "(", "Name", ")", "");
+    }
 }
