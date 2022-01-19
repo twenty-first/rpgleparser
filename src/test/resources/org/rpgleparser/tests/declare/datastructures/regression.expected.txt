@@ -64,7 +64,7 @@ FREE_SEMI                <;>
 (r
   (statement
     (dcl_ds
-      DCL-DS
+      (dsDataStructureStart DCL-DS)
       (identifier (free_identifier (idOrKeyword data_str_1)))
       ;
       (dcl_ds_field
@@ -91,7 +91,7 @@ FREE_SEMI                <;>
   )
   (statement
     (dcl_ds
-      DCL-DS
+      (dsDataStructureStart DCL-DS)
       (identifier (free_identifier (idOrKeyword data_str_2)))
       ;
       (dcl_ds_field
@@ -110,7 +110,7 @@ FREE_SEMI                <;>
   )
   (statement
     (dcl_ds
-      DCL-DS
+      (dsDataStructureStart DCL-DS)
       (identifier (free_identifier * (idOrKeyword N)))
       ;
       (dcl_ds_field
