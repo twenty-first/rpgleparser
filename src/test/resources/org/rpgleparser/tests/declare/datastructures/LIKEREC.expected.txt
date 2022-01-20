@@ -49,7 +49,7 @@ FREE_SEMI                <;>
   )
   (statement
     (dcl_ds
-      (dsDataStructureStart DCL-DS)
+      DCL-DS
       (identifier (free_identifier (idOrKeyword custoutput)))
       (keyword_likerec
         LIKEREC

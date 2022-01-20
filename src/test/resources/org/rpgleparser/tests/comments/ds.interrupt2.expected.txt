@@ -22,7 +22,7 @@ FREE_SEMI                <;>
 (r
   (statement
     (dcl_ds
-      (dsDataStructureStart DCL-DS)
+      DCL-DS
       (identifier (free_identifier (idOrKeyword data_str_1)))
       ;
       (dcl_ds_field

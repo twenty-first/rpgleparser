@@ -20,7 +20,7 @@ FREE_SEMI                <;>
 (r
   (statement
     (dcl_ds
-      (dsDataStructureStart dcl-ds)
+      dcl-ds
       (identifier (free_identifier (idOrKeyword PgmDs)))
       (keyword (keyword_psds psds))
       (keyword (keyword_qualified qualified))

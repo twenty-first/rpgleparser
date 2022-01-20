@@ -215,9 +215,7 @@ keyword_usage: KEYWORD_USAGE OPEN_PAREN (symbolicConstants | ID) (COLON (symboli
 like_lengthAdjustment: sign number;
 sign: PLUS | MINUS;
 
-dsDataStructureStart : DS_DataStructureStart ;
-
-dcl_ds:  (dsDataStructureStart identifier keyword*    
+dcl_ds:  (DS_DataStructureStart identifier keyword*    
 		(
 			(
 				(FREE_SEMI 
