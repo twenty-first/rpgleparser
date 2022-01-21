@@ -746,6 +746,8 @@ SPLAT_INLR : '*' [iI] [nN] [lL] [rR] ;
 
 SPLAT_INOF : '*' [iI] [nN] [oO] [fF] ;
 
+SPLAT_INRT : '*' [iI] [nN] [rR] [tT] ;
+
 SPLAT_DATA : '*' [dD] [aA] [tT] [aA] ;
 
 SPLAT_ASTFILL : '*' [aA] [sS] [tT] [fF] [iI] [lL] ;
@@ -1768,6 +1770,8 @@ CS_Factor1_SPLAT_INLR : SPLAT_INLR {11+5<= getCharPositionInLine() && getCharPos
 
 CS_Factor1_SPLAT_INOF : SPLAT_INOF {11+5<= getCharPositionInLine() && getCharPositionInLine()<=24 }? -> type(SPLAT_INOF);
 
+CS_Factor1_SPLAT_INRT : SPLAT_INRT {11+5<= getCharPositionInLine() && getCharPositionInLine()<=24 }? -> type(SPLAT_INRT);
+
 //DurationCodes
 CS_Factor1_SPLAT_D : SPLAT_D {11+2<= getCharPositionInLine() && getCharPositionInLine()<=24 }? -> type(SPLAT_D);
 
@@ -1931,6 +1935,8 @@ CS_Factor2_SPLAT_HMS : SPLAT_HMS {35+4<= getCharPositionInLine() && getCharPosit
 CS_Factor2_SPLAT_INLR : SPLAT_INLR {35+5<= getCharPositionInLine() && getCharPositionInLine()<=48 }? -> type(SPLAT_INLR);
 
 CS_Factor2_SPLAT_INOF : SPLAT_INOF {35+5<= getCharPositionInLine() && getCharPositionInLine()<=48 }? -> type(SPLAT_INOF);
+
+CS_Factor2_SPLAT_INRT : SPLAT_INRT {35+5<= getCharPositionInLine() && getCharPositionInLine()<=48 }? -> type(SPLAT_INRT);
 //Duration
 CS_Factor2_SPLAT_D : SPLAT_D {35+2<= getCharPositionInLine() && getCharPositionInLine()<=48 }? -> type(SPLAT_D);
 
